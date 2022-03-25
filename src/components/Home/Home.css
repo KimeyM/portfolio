@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+#home {
+  height: 100vh;
+}
+.imghome {
+  width: 100vw;
+}
+.kimey {
+  position: absolute;
+  text-align: center;
+  color: #ddafaf;
+  top: 27px;
+  left: 0;
+  right: 0;
+}
+.icons {
+  font-size: 20px;
+  font-weight: 700;
+}
+.icons a {
+  color: #ddafaf;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  align-self: center;
+  z-index: 4;
+  -webkit-animation: tracking-in-expand 1s ease-out both;
+  animation: tracking-in-expand 1s ease-out both;
+  transition: font-size 0.3s ease-in-out 0s;
+}
+.icons a:hover {
+  cursor: pointer;
+  font-size: 22px;
+}
+.kimey h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 70px;
+  position: relative;
+  z-index: 2;
+  background: radial-gradient(
+    ellipse farthest-corner at bottom right,
+    #ee416fbb 0%,
+    #ddafaf 60%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: tracking-in-expand 1s ease-out both;
+  animation: tracking-in-expand 1s ease-out both;
+}
+.kimey h2 {
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .kimey {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .kimey {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .kimey {
+    font-size: 10px;
+  }
+  .icons a span {
+    display: none;
+  }
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
