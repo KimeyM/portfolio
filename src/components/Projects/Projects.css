@@ -168,14 +168,25 @@
     margin-left: 0;
     margin-right: 0;
   }
+  .card__collection .cards{
+    width: 400px;
+    height: 270px;
+    margin-top: 30px;
+  }
+  .card__collection .cards--two__rect {
+    width: 800px; 
+}
 }
 @media only screen and (max-width: 470px) {
  .card__collection .cards{
-    width: 280px;
-    height: 210px;
+    width: 270px;
+    height: 180px;
     margin-top: 30px;
   }
   .card__collection .cards--two p{
-    font-size: 18px;
+    font-size:18px;
+  }
+  .card__collection .cards--two__rect {
+      width: 660px; 
   }
 }
