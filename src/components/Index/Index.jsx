@@ -8,10 +8,10 @@ import Resume from "../Resume/Resume";
 export default function Index() {
     return (
         <div>
-             <Home />
-             <About />
-             <Resume />
-             <Projects />
-             <Contact />
+            <Home />
+            <About />
+            <Resume />
+            <Projects />
+            <Contact />
         </div>
     )}

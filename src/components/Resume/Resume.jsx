@@ -1,5 +1,6 @@
 import React from "react";
 import './Resume.css'
+// import './Resumecopy.css'
 import cv from '../../img/KimeyMastrángelo-CV-FullStackWebDeveloper.pdf'
 
 window.addEventListener('scroll', function(){
@@ -8,7 +9,7 @@ window.addEventListener('scroll', function(){
     let tamañoPantalla = window.innerHeight
 
     if (posicionObj1 < tamañoPantalla){
-        animacion.style.animation = 'slide-in-bottom 2s ease-out'
+        animacion.style.animation = 'slide-in-bottom 1s ease-out'
     }
 })
 

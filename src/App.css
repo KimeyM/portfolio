@@ -9,7 +9,9 @@
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  background-image: url("./img/bg11.png");
+  /* background-image: url("./img/bg11.png"); */
+  background-image: url("./img/bg12.png");
+
   /* background-color: rgb(75, 22, 51); */
   background-size: cover;
   background-position: center;

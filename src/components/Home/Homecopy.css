@@ -8,7 +8,7 @@
 .kimey {
   position: absolute;
   text-align: center;
-  color: #ddafaf;
+  color: #9f9f9f;
   top: 27px;
   left: 0;
   right: 0;
@@ -18,7 +18,7 @@
   font-weight: 700;
 }
 .icons a {
-  color: #ddafaf;
+  color: #9f9f9f;
   background-color: transparent;
   border: none;
   outline: none;
@@ -43,8 +43,8 @@ h2 {
   z-index: 2;
   background: radial-gradient(
     ellipse farthest-corner at bottom right,
-    #ee416fbb 0%,
-    #ddafaf 60%
+    #454e74 30%,
+    #9f9f9f 60%
   );
   -webkit-background-clip: text;
   background-clip: text;

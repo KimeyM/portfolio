@@ -1,5 +1,5 @@
 #resume {
-  color: #ddcfcf;
+  color: #9f9f9f;
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
 }
@@ -62,8 +62,8 @@
   margin-top: -40px;
   background: radial-gradient(
     ellipse farthest-corner at bottom right,
-    #ee416fbb 0%,
-    #ddafaf 60%
+    #454e74 30%,
+    #9f9f9f 60%
   );
   -webkit-background-clip: text;
   background-clip: text;
@@ -116,8 +116,8 @@
   font-size: 30px;
   background: radial-gradient(
     ellipse farthest-corner at bottom right,
-    #ee416fbb 0%,
-    #ddafaf 60%
+    #454e74 30%,
+    #9f9f9f 60%
   );
   -webkit-background-clip: text;
   background-clip: text;

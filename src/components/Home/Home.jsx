@@ -1,6 +1,8 @@
 import React from "react";
 import SideBar from '../SideBar/SideBar'
 import './Home.css';
+// import './Homecopy.css';
+
 
 export default function Home() {
     return (

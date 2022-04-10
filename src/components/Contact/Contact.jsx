@@ -1,4 +1,5 @@
 import './Contact.css'
+// import './Contactcopy.css'
 import React, { useState } from "react";
 import axios from "axios";
 import {CopyToClipboard} from 'react-copy-to-clipboard';
@@ -10,7 +11,7 @@ window.addEventListener('scroll', function(){
   let tamañoPantalla = window.innerHeight
 
   if (posicionObj1 < tamañoPantalla){
-      animacion.style.animation = 'slide-in-bottom 2s ease-out'
+      animacion.style.animation = 'slide-in-bottom 1s ease-out'
   }
 })
 

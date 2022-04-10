@@ -1,7 +1,24 @@
 import React from "react";
 import './About.css'
+// import './Aboutcopy.css'
 // import img2 from '../../img/FotoCV.jpg'
-import img2 from '../../img/z.jpg'
+// import img2 from '../../img/01.jpg' //selfie no
+// import img2 from '../../img/02.jpg' //selfie no
+// import img2 from '../../img/03.jpg' //selfie no
+// import img2 from '../../img/04.jpg' //cara fea
+// import img2 from '../../img/05.jpg' //selfie pero bonita
+// import img2 from '../../img/06.jpg' //selfie no
+// import img2 from '../../img/07.jpg' //selfie pero bonita
+// import img2 from '../../img/08.jpg' //selfie no
+// import img2 from '../../img/09.jpg' //facheraaasaaa
+// import img2 from '../../img/10.jpg' //facheraaasaaa
+// import img2 from '../../img/11.jpg' //podria
+import img2 from '../../img/12.jpg' // re podria
+// import img2 from '../../img/13.jpg' //la mas formalita
+// import img2 from '../../img/14.jpg' //caca
+// import img2 from '../../img/15.jpg' //programadora con mano tonta
+// import img2 from '../../img/16.jpg' //programadora lindi
+
 import html from '../../img/icons/html5.svg'
 import css from '../../img/icons/css3.svg'
 import js from '../../img/icons/javascript.svg'
@@ -28,7 +45,7 @@ window.addEventListener('scroll', function(){
     let tamañoPantalla = window.innerHeight
 
     if (posicionObj1 < tamañoPantalla){
-        animacion.style.animation = 'slide-in-bottom 2s ease-out'
+        animacion.style.animation = 'slide-in-bottom 1s ease-out'
     }
 })
 
@@ -105,7 +122,7 @@ export default function About() {
                         </svg>
                     </div>
                     <div className="d7">
-                        <a href="https://api.whatsapp.com/send?phone=+543415994708" target="_blank" rel="noreferrer noopener" style={{ textDecoration: 'none', color:"#ddcfcf" }} > +54 9 341 599-4708 </a>
+                        <a href="https://api.whatsapp.com/send?phone=+543415994708" target="_blank" rel="noreferrer noopener" style={{ textDecoration: 'none', color:"currentColor" }} > +54 9 341 599-4708 </a>
                     </div>
                     <div className="d3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" className="bi bi-envelope" viewBox="0 0 16 16">
@@ -132,7 +149,7 @@ export default function About() {
                         </svg>
                     </div>
                     <div className="d9">
-                        <a href="https://www.linkedin.com/in/kimey-mastrangelo/" target="_blank" style={{ textDecoration: 'none', color:"#ddcfcf" }}>Kimey Mastrángelo</a>
+                          <a href="https://www.linkedin.com/in/kimey-mastrangelo/" target="_blank" style={{ textDecoration: 'none', color:"currentColor" }}>Kimey Mastrángelo</a>
                     </div>
                     <div className="d5">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" className="bi bi-github" viewBox="0 0 16 16">
@@ -140,7 +157,7 @@ export default function About() {
                         </svg>
                     </div>
                     <div className="d10">
-                        <a href="https://github.com/KimeyM" target="_blank" style={{ textDecoration: 'none', color:"#ddcfcf" }}>KimeyM</a>
+                        <a href="https://github.com/KimeyM" target="_blank" style={{ textDecoration: 'none', color:"currentColor" }}>KimeyM</a>
                     </div>
                     <div className="d6">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#c93033" className="bi bi-geo-alt-fill" viewBox="0 0 16 16">

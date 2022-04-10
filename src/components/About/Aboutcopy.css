@@ -1,6 +1,6 @@
 #about {
   min-height: 100vh;
-  color: #ddcfcf;
+  color: #9f9f9f;
   font-family: "Montserrat", sans-serif;
 }
 b {
@@ -38,8 +38,8 @@ hr {
   margin-top: -40px;
   background: radial-gradient(
     ellipse farthest-corner at bottom right,
-    #ee416fbb 0%,
-    #ddafaf 60%
+    #454e74 30%,
+    #9f9f9f 60%
   );
   -webkit-background-clip: text;
   background-clip: text;
@@ -53,8 +53,8 @@ hr {
   box-shadow: 5px 5px 10px 1px #000;
 }
 .asd3 img {
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   border-radius: 50%;
   object-fit: cover;
 }

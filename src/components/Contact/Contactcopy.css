@@ -80,7 +80,7 @@ textarea {
   border-radius: 5px;
   width: 99%;
   padding-left: 10px;
-  background-color: #6464645f;
+  background-color: #ddcfcf95;
   font-size: 20px;
   font-weight: 500;
   /* color: #fff88; */
@@ -91,13 +91,13 @@ textarea {
   font-weight: 500;
 }
 #contact input:focus {
-  background-color: #ddcfcf95;
+  background-color: #ddafaf5f;
 }
 #contact textarea {
   border: none;
   outline: none;
   border-radius: 5px;
-  background-color: #6464645f;
+  background-color: #ddcfcf95;
   width: 99%;
   padding-left: 10px;
   font-size: 20px;
@@ -110,18 +110,18 @@ textarea {
   font-weight: 500;
 }
 #contact textarea:focus {
-  background-color: #ddcfcf95;
+  background-color: #ddafaf5f;
 }
 #contact input::placeholder {
   font-size: 20px;
   font-weight: 500;
-  color: #ffffffc5;
+  color: #ffffff88;
   font-size: 16px;
 }
 #contact textarea::placeholder {
   font-size: 20px;
   font-weight: 500;
-  color: #ffffffc5;
+  color: #ffffff88;
   font-size: 16px;
 }
 #contact .df2 {
