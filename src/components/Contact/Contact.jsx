@@ -1,5 +1,4 @@
 import './Contact.css'
-// import './Contactcopy.css'
 import React, { useState } from "react";
 import axios from "axios";
 import {CopyToClipboard} from 'react-copy-to-clipboard';
@@ -52,7 +51,7 @@ function Contact() {
   return (
     <div id="contacto" >
       <div className="title"> <hr /></div>
-      <div className="tit">CONTÁCTAME</div>
+      <div className="tit">CONTACTAME</div>
       <br />
       <div id='contact'>
         <div className="grid">
@@ -86,7 +85,7 @@ function Contact() {
                 </div>
             </div>
             <div id='big' className="big">
-              <form onSubmit={handleOnSubmit} autocomplete="off">
+              <form onSubmit={handleOnSubmit} autoComplete="off">
                 <div className="name">
                   <input id="Nombre" type="text" name="Nombre" placeholder="Nombre" required />
                 </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import './Resume.css'
-// import './Resumecopy.css'
 import cv from '../../img/KimeyMastrángelo-CV-FullStackWebDeveloper.pdf'
 
 window.addEventListener('scroll', function(){
@@ -22,7 +21,7 @@ export default function Resume() {
                 <br />
                 <div className="pflex">
                     <div className="proy">
-                        <b>Proyecto "Countries App"</b>
+                        <b>Proyecto <br /> "Countries App"</b>
                         <br /> <br /> Se trata de Single Page Application (SPA) de países con sus características detalladas, en la cual se accedió a dicha información a través de la API "Rest Countries".
                         <br /> <br /> Es posible buscar los países por nombre, ordenarlos, filtrarlos e incluso crear actividades turísticas a cada país mediante un formulario controlado.
                         <br /> <br /> CSS, ReactJs, Redux, NodeJs, Express, Sequelize, PostgreSQL
@@ -30,7 +29,7 @@ export default function Resume() {
                         <a href="#projects">+</a>
                     </div>
                     <div className="proy">
-                        <b>Proyecto "E-commerce"</b>
+                        <b>Proyecto <br /> "E-commerce"</b>
                         <br /> <br /> Equipo de 6 desarrolladores.
                         <br /> <br /> Participación en un proyecto ágil con sprints de una semana, presentando a un Product Owner el progreso de desarrollo de la app.
                         <br /> <br /> Utilizamos tres roles. invitado, usuario y administrador.

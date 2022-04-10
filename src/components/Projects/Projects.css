@@ -11,7 +11,7 @@
   margin-right: 15%;
 }
 .caratula {
-  height: 110%;
+  width: 100%;
 }
 .card__collection {
   position: relative;
@@ -54,7 +54,6 @@
 }
 .card__collection .cards--two:hover img {
   transform: translateY(-15px);
-  /* filter: blur(5px); */
   filter: brightness(0.25);
 }
 .card__collection .cards--two:hover .cards--two__rect {
@@ -116,13 +115,11 @@
   transition-delay: 0.1s;
   margin-left: 20px;
 }
-
 .cards ul {
   display: flex;
   align-items: center;
   margin-left: -30px;
 }
-
 .card__collection {
   display: flex;
   justify-content: center;
@@ -154,6 +151,7 @@
     opacity: 1;
   }
 }
+
 @media only screen and (max-width: 1250px) {
   .card__collection{
     flex-direction: column;
@@ -161,22 +159,20 @@
     align-items: center;
   }
 }
-
 @media only screen and (max-width: 630px) {
   #projects {
     height: 100%;
   }
- 
   .card__collection{
     margin-left: 0;
     margin-right: 0;
   }
 }
-
 @media only screen and (max-width: 470px) {
  .card__collection .cards{
     width: 280px;
     height: 210px;
+    margin-top: 30px;
   }
   .card__collection .cards--two p{
     font-size: 18px;

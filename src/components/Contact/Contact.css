@@ -50,11 +50,6 @@
   border-radius: 5px;
   box-shadow: 5px 5px 10px 1px #000;
   background-color: #ddafaf;
-  /* background: radial-gradient(
-    ellipse farthest-corner at bottom right,
-    #ee416fbb 0%,
-    #ddafaf 60%
-  ); */
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 50px;
@@ -63,11 +58,6 @@
 .btn:hover {
   cursor: pointer;
   transform: translate(1px, 1%);
-  /* background: radial-gradient(
-    ellipse farthest-corner at top left,
-    #ee416fbb 0%,
-    #ddafaf 60%
-  ); */
 }
 textarea {
   resize: none;
@@ -83,7 +73,6 @@ textarea {
   background-color: #6464645f;
   font-size: 20px;
   font-weight: 500;
-  /* color: #fff88; */
   color: #fff;
   font-size: 16px;
   font-size: 16px;
@@ -157,11 +146,11 @@ textarea {
   cursor: pointer;
   font-size: 22px;
 }
-
 #enviadoexito {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
 }
+
 @media only screen and (max-width: 1310px) {
   .grid {
     display: grid;
@@ -180,7 +169,11 @@ textarea {
     margin-right: auto;
   }
 }
-
+@media only screen and (max-width: 1040px) {
+  .big {
+    width: 95%;
+  }
+}
 @media only screen and (max-width: 720px) {
   .grid {
     display: grid;
@@ -235,7 +228,6 @@ textarea {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
   }
-
   #contact .df2 {
     grid-area: 1 / 3 / 2 / 4;
     text-align: center;

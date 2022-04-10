@@ -1,8 +1,5 @@
-import React from "react";
 import SideBar from '../SideBar/SideBar'
 import './Home.css';
-// import './Homecopy.css';
-
 
 export default function Home() {
     return (
@@ -10,7 +7,7 @@ export default function Home() {
             <SideBar />
             <div className='kimey'>
                 <h1>Kimey Mastrángelo</h1>
-                <h2>Full-stack Developer</h2>
+                <h2>Full Stack Developer</h2>
                 <div className="icons">
                     <a href='https://github.com/KimeyM' style={{ textDecoration: 'none' }} target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">

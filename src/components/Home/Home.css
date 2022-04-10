@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 #home {
-  height: 100vh;
+  min-height: 100vh;
 }
 .imghome {
   width: 100vw;
@@ -9,9 +9,9 @@
   position: absolute;
   text-align: center;
   color: #ddafaf;
-  top: 27px;
+  top: 5%;
   left: 0;
-  right: 0;
+  right: 0; 
 }
 .icons {
   font-size: 20px;
@@ -71,7 +71,6 @@ h2 {
   .icons a{
     animation: fade-in 1s ease-out both;
   }
-
 }
 @-webkit-keyframes fade-in {
   0% {

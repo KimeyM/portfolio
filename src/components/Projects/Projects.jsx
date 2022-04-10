@@ -1,7 +1,6 @@
 import React from "react";
 import './Projects.css'
-// import './Projectscopy.css'
-import imgproyecto from '../../img/bg.jpg'
+import imgproyecto from '../../img/MUESTRA-DON-PALADAR.png'
 import countries from '../../img/countries.png'
 import atr from '../../img/atr.png'
 
