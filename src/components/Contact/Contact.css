@@ -18,8 +18,8 @@
   border-radius: 5px;
   padding: 15px;
   width: 100%;
-  max-width: 800px;
-  justify-self: center;
+  max-width: 600px;
+  justify-self: flex-end;
 }
 .lateral {
   grid-area: 1 / 3 / 2 / 4;
