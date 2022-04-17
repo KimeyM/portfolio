@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 #home {
   min-height: 100vh;
+  animation: tracking-in-expand 0.8s ease-out both;
+  margin-left: 100px;
+  margin-right: 100px;
+
 }
 .imghome {
   width: 100vw;
@@ -26,8 +30,6 @@
   margin-left: 10px;
   align-self: center;
   z-index: 4;
-  -webkit-animation: tracking-in-expand 1s ease-out both;
-  animation: tracking-in-expand 1s ease-out both;
   transition: font-size 0.3s ease-in-out 0s;
 }
 .icons a:hover {
@@ -49,29 +51,47 @@ h2 {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: tracking-in-expand 1s ease-out both;
-  animation: tracking-in-expand 1s ease-out both;
 }
 .kimey h2 {
   font-size: 50px;
 }
-
+@media only screen and (max-width: 900px) {
+  #home {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
 @media only screen and (max-width: 720px) {
   .kimey{
     margin-top: 100px;
   }
   .kimey h1{
     font-size: 40px;
-    animation: fade-in 1s ease-out both;
+    animation: fade-in 1.3s ease-out both;
   }
   .kimey h2{
     font-size: 30px;
-    animation: fade-in 1s ease-out both;
-  }
-  .icons a{
-    animation: fade-in 1s ease-out both;
+    animation: fade-in 1.3s ease-out both;
   }
 }
+@media only screen and (max-width: 320px) {
+  .kimey h1{
+    font-size: 30px;
+    animation: fade-in 1.3s ease-out both;
+  }
+  .kimey h2{
+    font-size: 20px;
+    animation: fade-in 1.3s ease-out both;
+  }
+  .icons {
+    font-size: 15px;
+  }
+  .icons svg {
+    width: 20px;
+  }
+
+}
+
 @-webkit-keyframes fade-in {
   0% {
     opacity: 0;
@@ -115,7 +135,7 @@ h2 {
   }
 }
 
-@-webkit-keyframes fade-in-bottom {
+/* @-webkit-keyframes fade-in-bottom {
   0% {
     -webkit-transform: translateY(50px);
     transform: translateY(50px);
@@ -138,4 +158,4 @@ h2 {
     transform: translateY(0);
     opacity: 1;
   }
-}
+} */

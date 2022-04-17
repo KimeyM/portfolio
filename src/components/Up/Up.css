@@ -21,9 +21,9 @@
   border: none;
   outline: none;
   color: #000;
-  z-index: 1;
-  -webkit-animation: fade-in 2s ease-out both;
-  animation: fade-in 2s ease-out both;
+  z-index: 100;
+  -webkit-animation: fade-in 1.3s ease-out both;
+  animation: fade-in 1.3s ease-out both;
 }
 .btnup button:hover {
   cursor: pointer;

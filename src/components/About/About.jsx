@@ -45,7 +45,7 @@ window.addEventListener('scroll', function(){
     let tamañoPantalla = window.innerHeight
 
     if (posicionObj1 < tamañoPantalla){
-        animacion.style.animation = 'slide-in-bottom 1s ease-out'
+        animacion.style.animation =  'fade-in 1.3s ease-out both'
     }
 })
 

@@ -2,6 +2,8 @@
   color: #ddcfcf;
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .proyectos {
   margin-left: 10%;
@@ -69,7 +71,7 @@
   margin-right: 12%;
 }
 .henry {
-  grid-area: 2 / 1 / 6 / 2;
+  grid-area: 2 / 2 / 6 / 3;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 5px;
   box-shadow: 5px 5px 10px 1px #000;
@@ -78,8 +80,27 @@
   font-size: 14px;
   height: min-content;
 }
+.btnc button {
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  outline: none;
+  height: 25px;
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 1px #000;
+  background-color: #ddafaf;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  margin-top: 10px;
+}
+.btnc button:hover {
+  cursor: pointer;
+  transform: translate(1px, 1%);
+}
 .autodidacta {
-  grid-area: 2 / 2 / 6 / 3;
+  grid-area: 2 / 1 / 6 / 2;
+
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 5px;
   box-shadow: 5px 5px 10px 1px #000;
@@ -159,7 +180,12 @@
     opacity: 1;
   }
 }
-
+@media only screen and (max-width: 900px) {
+  #resume {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
 @media only screen and (max-width: 750px) {
   .pflex {
     flex-direction: column;

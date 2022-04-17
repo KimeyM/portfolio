@@ -1,6 +1,7 @@
 import React from "react";
 import './Resume.css'
 import cv from '../../img/KimeyMastrángelo-CV-FullStackWebDeveloper.pdf'
+import c from '../../img/KimeyMastrángelo-Certificado-FullStackWebDeveloper.jpg'
 
 window.addEventListener('scroll', function(){
     let animacion = document.getElementById('resume')
@@ -8,7 +9,7 @@ window.addEventListener('scroll', function(){
     let tamañoPantalla = window.innerHeight
 
     if (posicionObj1 < tamañoPantalla){
-        animacion.style.animation = 'slide-in-bottom 1s ease-out'
+        animacion.style.animation = 'fade-in 1.3s ease-out both'
     }
 })
 
@@ -47,6 +48,9 @@ export default function Resume() {
                     <b>HENRY Bootcamp</b>  <br />
                     <br /> Full Stack Developer <br />
                     Más de 800hs de cursado teórico-práctico
+                    <a className="btnc" href={c} download>
+                        <button>Ver certificado</button>
+                    </a>
                 </div>
                 <div className="autodidacta">
                     <b>Autodidacta</b>  <br />

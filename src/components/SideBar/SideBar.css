@@ -21,8 +21,11 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-animation: fade-in 2s ease-out both;
-  animation: fade-in 2s ease-out both;
+  -webkit-animation: fade-in 1.3s ease-out both;
+  animation: fade-in 1.3s ease-out both;
+
+  z-index: 100;
+
 }
 .p1 {
   grid-area: 1 / 1 / 2 / 2;
@@ -272,7 +275,14 @@
     margin-left: -7px;
   }
 }
-
+@media only screen and (max-width: 320px) {
+  .parent {
+    width: 250px;
+    grid-column-gap: 3px;
+    margin-left: calc(50% - 119px);
+    margin-right: calc(50% - 119px);
+  }
+}
 @-webkit-keyframes fade-in {
   0% {
     opacity: 0;
