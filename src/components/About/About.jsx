@@ -1,24 +1,6 @@
 import React from "react";
 import './About.css'
-// import './Aboutcopy.css'
-// import img2 from '../../img/FotoCV.jpg'
-// import img2 from '../../img/01.jpg' //selfie no
-// import img2 from '../../img/02.jpg' //selfie no
-// import img2 from '../../img/03.jpg' //selfie no
-// import img2 from '../../img/04.jpg' //cara fea
-// import img2 from '../../img/05.jpg' //selfie pero bonita
-// import img2 from '../../img/06.jpg' //selfie no
-// import img2 from '../../img/07.jpg' //selfie pero bonita
-// import img2 from '../../img/08.jpg' //selfie no
-// import img2 from '../../img/09.jpg' //facheraaasaaa
-// import img2 from '../../img/10.jpg' //facheraaasaaa
-// import img2 from '../../img/11.jpg' //podria
-import img2 from '../../img/12.jpg' // re podria
-// import img2 from '../../img/13.jpg' //la mas formalita
-// import img2 from '../../img/14.jpg' //caca
-// import img2 from '../../img/15.jpg' //programadora con mano tonta
-// import img2 from '../../img/16.jpg' //programadora lindi
-
+import img2 from '../../img/12.jpg'
 import html from '../../img/icons/html5.svg'
 import css from '../../img/icons/css3.svg'
 import js from '../../img/icons/javascript.svg'
