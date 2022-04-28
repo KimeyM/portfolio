@@ -1,7 +1,7 @@
 import React from "react";
 import './Resume.css'
 import cv from '../../img/KimeyMastrángelo-CV-FullStackWebDeveloper.pdf'
-import c from '../../img/KimeyMastrángelo-Certificado-FullStackWebDeveloper.jpg'
+// import c from '../../img/KimeyMastrángelo-Certificado-FullStackWebDeveloper.jpg'
 
 window.addEventListener('scroll', function(){
     let animacion = document.getElementById('resume')
@@ -48,9 +48,9 @@ export default function Resume() {
                     <b>HENRY Bootcamp</b>  <br />
                     <br /> Full Stack Developer <br />
                     Más de 800hs de cursado teórico-práctico
-                    <a className="btnc" href={c} download>
+                    {/* <a className="btnc" href={c} download>
                         <button>Ver certificado</button>
-                    </a>
+                    </a> */}
                 </div>
                 <div className="autodidacta">
                     <b>Autodidacta</b>  <br />

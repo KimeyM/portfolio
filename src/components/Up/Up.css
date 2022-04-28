@@ -1,7 +1,11 @@
-.btnup button {
+.btnup{
   position: fixed;
   bottom: 30px;
   right: 30px;
+}
+.btnup button {
+  position: relative;
+  z-index: 1100;
   display: flex;
   background-color: #ddafaf;
   /* background: radial-gradient(
@@ -21,7 +25,7 @@
   border: none;
   outline: none;
   color: #000;
-  z-index: 100;
+  z-index: 120;
   -webkit-animation: fade-in 1.3s ease-out both;
   animation: fade-in 1.3s ease-out both;
 }

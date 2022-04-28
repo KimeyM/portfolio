@@ -1,5 +1,10 @@
 .sidebar {
-  position: relative;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  left: 10px;
   z-index: 100;
 }
 .parent {
@@ -9,23 +14,16 @@
   grid-row-gap: 10px;
   width: 250px;
   margin-left: 20px;
-  align-items: center;
-  position: fixed;
   height: min-content;
-  left: 10px;
   font-size: 16px;
   font-weight: 700;
-  top: 20%;
-  bottom: 20%;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   -webkit-animation: fade-in 1.3s ease-out both;
   animation: fade-in 1.3s ease-out both;
-
   z-index: 100;
-
 }
 .p1 {
   grid-area: 1 / 1 / 2 / 2;
@@ -114,6 +112,7 @@
   align-items: center;
   border-radius: 50px;
   transition: width 0.5s ease-in-out 0s;
+  transition-delay: -0.5s;
 }
 .p2 .ki div {
   transform: translate(-20px, -20px);
@@ -128,6 +127,7 @@
   align-items: center;
   border-radius: 50px;
   transition: width 0.5s ease-in-out 0s;
+  transition-delay: -0.5s;
 }
 .p3 .ki div {
   transform: translate(-20px, -20px);
@@ -142,6 +142,7 @@
   align-items: center;
   border-radius: 50px;
   transition: width 0.5s ease-in-out 0s;
+  transition-delay: -0.5s;
 }
 .p4 .ki div {
   transform: translate(-20px, -20px);
@@ -156,6 +157,7 @@
   align-items: center;
   border-radius: 50px;
   transition: width 0.5s ease-in-out 0s;
+  transition-delay: -0.5s;
 }
 .p5 .ki div {
   transform: translate(-20px, -20px);
@@ -170,6 +172,7 @@
   align-items: center;
   border-radius: 50px;
   transition: width 0.5s ease-in-out 0s;
+  transition-delay: -0.5s;
 }
 .kitxt {
   color: black;
@@ -216,7 +219,18 @@
   color: #000;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1024px) {
+  .sidebar{
+    position: absolute;
+    display: fixed;
+    top: 10px;
+    left: 0;
+    right: 0;
+    /* margin-left: calc(50% - 160px); */
+    /* margin-right: calc(50% - 160px); */
+    height: max-content;
+    z-index: 150px;
+  }
   .parent {
     grid-template-rows: 1fr;
     grid-template-columns: repeat(5, 1fr);
@@ -225,8 +239,6 @@
     top: 10px;
     left: 0;
     width: 320px;
-    margin-left: calc(50% - 160px);
-    margin-right: calc(50% - 160px);
   }
   .p1 {
     grid-area: 1 / 1 / 2 / 2;
@@ -276,11 +288,15 @@
   }
 }
 @media only screen and (max-width: 320px) {
+  .sidebar{
+    margin-left: auto;
+    margin-right: auto;
+  }
   .parent {
-    width: 250px;
+    width: max-content;
     grid-column-gap: 3px;
-    margin-left: calc(50% - 119px);
-    margin-right: calc(50% - 119px);
+    left: auto;
+    right: auto;
   }
 }
 @-webkit-keyframes fade-in {

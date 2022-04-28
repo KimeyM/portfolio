@@ -13,7 +13,14 @@
   margin-right: 15%;
 }
 .caratula {
-  width: 110%;
+  /* height: 110%; */
+  object-fit: cover;
+}
+.centrar{
+  object-position: -400px;
+}
+.centrar0{
+  object-position: -310px;
 }
 .card__collection {
   position: relative;
@@ -57,7 +64,7 @@
 }
 .card__collection .cards--two:hover img {
   transform: translateY(-15px);
-  filter: brightness(0.25);
+  filter: brightness(0.15) sepia(1) hue-rotate(-33deg);
 }
 .card__collection .cards--two:hover .cards--two__rect {
   top: 60%;
@@ -70,6 +77,7 @@
 }
 .card__collection .cards--two img {
   transition: all 0.2s ease;
+  filter: sepia(1) hue-rotate(-33deg);
 }
 .card__collection .cards--two__rect {
   width: 1100px;

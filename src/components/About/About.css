@@ -1,5 +1,7 @@
 #about {
   min-height: 100vh;
+  display: grid;
+  place-content: center;
   color: #ddcfcf;
   font-family: "Montserrat", sans-serif;
   margin-left: 100px;
@@ -32,12 +34,12 @@ hr {
   background-color: #454e74;
   border: none;
   height: 2px;
-  margin-top: -5px;
 }
+
 .asd2 {
   font-weight: 800;
   font-size: 30px;
-  margin-top: -40px;
+  /* margin-top: -140px; */
   background: radial-gradient(
     ellipse farthest-corner at bottom right,
     #ee416fbb 0%,
@@ -71,6 +73,7 @@ hr {
   border-radius: 5px;
   box-shadow: 5px 5px 10px 1px #000;
   padding-bottom: 15px;
+  align-items: center;
 }
 .lang {
   grid-area: 3 / 1 / 4 / 3;
@@ -88,6 +91,7 @@ hr {
 .div1 {
   grid-area: 1 / 1 / 2 / 5;
   text-align: center;
+  align-self: flex-start;
   padding-top: 5px;
 }
 .div2 {
@@ -302,7 +306,7 @@ hr {
   align-items: flex-end;
 }
 .asd4 img {
-  height: 20px;
+  height: 40px;
 }
 .asd5 {
   grid-area: 3 / 3 / 4 / 6;
@@ -328,30 +332,27 @@ hr {
   padding-bottom: 15px;
   padding-left: 10px;
   padding-top: 5px;
+  align-items: center;
 }
 .d1 {
   grid-area: 1 / 1 / 2 / 6;
   text-align: center;
+  align-self: flex-start;
 }
 .d2 {
   grid-area: 2 / 1 / 3 / 2;
-  margin-top: 3px;
 }
 .d3 {
   grid-area: 3 / 1 / 4 / 2;
-  margin-top: 3px;
 }
 .d4 {
   grid-area: 4 / 1 / 5 / 2;
-  margin-top: 3px;
 }
 .d5 {
   grid-area: 5 / 1 / 6 / 2;
-  margin-top: 3px;
 }
 .d6 {
   grid-area: 6 / 1 / 7 / 2;
-  margin-top: 3px;
 }
 .d7 {
   grid-area: 2 / 2 / 3 / 7;
@@ -400,16 +401,34 @@ hr {
   .asd3 img{
     box-shadow: 5px 5px 10px 1px #000;
   }
-  .asd6 { grid-area: 1 / 2 / 2 / 3; }
-  .asd4 { grid-area: 2 / 1 / 3 / 3; }
+  .asd6 { 
+    grid-area: 1 / 2 / 2 / 3; 
+  }
+  .asd4 { 
+    grid-area: 2 / 1 / 3 / 3; 
+  }
+  .div2, .div4, .div6, .div8, .div10, .div12, .div14, .div16, .div18, .div20, .div22, .div24, .div26, .div28, .div30, .div32{
+    margin-right: -100px;
+  }
+  .d2, .d3, .d3, .d4, .d5, .d6{
+    margin-left: 30px;
+  }
   .asd5 { 
     grid-area: 3 / 1 / 4 / 3;
     height: max-content;
   }
   .lang { grid-area: 4 / 1 / 5 / 3; }
 }
+@media only screen and (max-width: 1350px) {
+  .div2, .div4, .div6, .div8, .div10, .div12, .div14, .div16, .div18, .div20, .div22, .div24, .div26, .div28, .div30, .div32{
+    margin-right: 0;
+  }
+  .d2, .d3, .d3, .d4, .d5, .d6{
+    margin-left: 0;
+  }
+}
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1024px) {
   #about {
     margin-left: 0px;
     margin-right: 0px;
@@ -445,6 +464,7 @@ hr {
     margin-left: 3px;
     margin-right: 3px;
     font-size: 16px;
+  
   }
   .asd5 {
     grid-area: 5 / 1 / 6 / 2;
@@ -525,5 +545,10 @@ hr {
   }
   .div33 {
     margin-left: -8px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  #about{
+    transform: scale(0.85);
   }
 }
